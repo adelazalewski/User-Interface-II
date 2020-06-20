@@ -199,11 +199,17 @@ textarea{
     display: none;
 }
 @media(max-width: 800px){
+    html{
+        width: 100%;
+    }
     .first-section p{
         width: 35vw; 
     }
 }
 @media(max-width: 500px){
+    html{
+        width: 100%;
+    }
     .img-section{
         flex-direction: column;
         justify-content: space-between;
@@ -249,6 +255,9 @@ textarea{
     }
 }
 @media(max-width: 360px){
+    html{
+        width: 100%;
+    }
     header nav{
         flex-flow: column wrap;
     }
